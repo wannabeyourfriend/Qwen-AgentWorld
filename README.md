@@ -7,7 +7,7 @@
     <a href="https://qwen.ai/blog?id=qwen-agentworld">📖 Blog</a> |
     <a href="https://huggingface.co/collections/Qwen/qwen-agentworld">🤗 Hugging Face</a> |
     <a href="https://modelscope.cn/collections/Qwen/Qwen-AgentWorld">🤖 ModelScope</a> |
-    <a href="#">🖥️ Demo</a>
+    <a href="https://qwen.ai/blog?id=qwen-agentworld#interactive-demo-interactive-demo">🖥️ Demo</a>
   </p>
 </div>
 
