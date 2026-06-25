@@ -156,8 +156,12 @@ vllm serve Qwen/Qwen-AgentWorld-35B-A3B \
     --tensor-parallel-size 4 \
     --max-model-len 262144 \
     --reasoning-parser qwen3 \
+    --language-model-only \
     --trust-remote-code
 ```
+
+> [!TIP]
+> The `--language-model-only` flag is required because the model architecture includes visual component definitions but the checkpoint only contains language model weights. Without this flag, vLLM will attempt to initialize visual modules and fail.
 
 An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
 
